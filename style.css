@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --mainColor: #eeeeee;
+    --bgColor: rgb(255,255,255);
+    --mainTextColor: #333;
+}
+
+*{
+    font-family: "Readex pro";
+    line-height: 1.5em;
+    box-sizing: border-box; 
+}
+
+
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: whitesmoke;
-    padding: 20px;
+    
     max-width: 750px;
 }
 
