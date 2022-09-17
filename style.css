@@ -2,8 +2,8 @@
 
 :root{
     --mainColor: #eeeeee;
-    --bgColor: rgb(255,255,255);
-    --mainTextColor: #333;
+    --bgColor: #0d1117;
+    --mainTextColor: #c9d1d9;
 }
 
 *{
@@ -23,31 +23,16 @@ main{
     display: block;
 }
 
-#container{
-    background-color: var(--mainColor);
-    margin: 30px 8px;
-    padding: 10px;
-    border-radius: 5px;
-    
-}
-
 h1{
     font-size: 4rem;
     font-weight: bold;
     margin-bottom: 0;
 }
 
-figure{
-    background-color: var(--mainColor);
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.image{
-    width: auto;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+h3{ 
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 2rem;
 }
 
 .recipes{
@@ -56,13 +41,36 @@ figure{
     justify-content: center;
     align-items: center;
     gap: 16px;
-    
+    margin-top: 50px;
 }
 
 .recipe{
     flex: 1;
 }
 .image-recipe{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+}
+.recipe > a > img:hover{
+    border-radius: 15px;
+    transform: scale(1.1,1.1);
+}
+
+/*Recipes CSS*/
+
+.description > img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid #c9d1d9;
+}
+
+.ingredients{
+    margin: 0 auto;
+}
+
+.ingredients > ul{
+    list-style: none;
+    text-align: left;
 }
