@@ -12,7 +12,7 @@
     box-sizing: border-box; 
 }
 
-body{
+body,a{
     background-color: var(--bgColor);
     text-align: center;
     color: var(--mainTextColor);
@@ -65,6 +65,7 @@ h3{
     width: 50%;
     border: 2px solid #c9d1d9;
     border-radius: 5px;
+    padding: 20px;
 }
 
 .description > img{
@@ -72,6 +73,7 @@ h3{
     height: 350px;
     border-radius: 50%;
     border: 2px solid #c9d1d9;
+    margin-top: 20px;
 }
 
 .ingredients{
