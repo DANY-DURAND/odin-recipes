@@ -59,6 +59,14 @@ h3{
 
 /*Recipes CSS*/
 
+.all{
+    margin: 30px auto;
+    display: block;
+    width: 50%;
+    border: 2px solid #c9d1d9;
+    border-radius: 5px;
+}
+
 .description > img{
     width: 350px;
     height: 350px;
@@ -70,7 +78,12 @@ h3{
     margin: 0 auto;
 }
 
-.ingredients > ul{
-    list-style: none;
+.ingredients > ul, ol{
     text-align: left;
+    
+}
+
+li{
+    line-height: 1.5rem;
+    margin-bottom: 15px;
 }
